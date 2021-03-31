@@ -191,8 +191,13 @@ public static void stockTable(WebDriver driver,String testData)throws Throwable
 	Reporter.log(testData+"     "+actdata,true);
 	break;
 	}
-	
-	
+	}
+public static void addition(int x, int y)
+{
+	 x=45678;
+	 y=9;
+	int z=x+y;
+	System.out.println(z);
 }
 }
 
